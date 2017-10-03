@@ -1,0 +1,21 @@
+
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    font-size: 10px;
+    background:#7B6E44;
+  }
+  
+  .photobooth {
+    background:white;
+    max-width:150rem;
+    margin: 2rem auto;
+    border-radius:2px;
+  }
+  
