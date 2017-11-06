@@ -1,4 +1,4 @@
-//weird alternate document ready
+  //weird alternate document ready
 			  $(document).ready(function($) {
 				  // we're getting io.connect from the socket.io.js file we linked. It is also connected to port 3000 as we specified in the app.js
 				  var socket = io.connect();
