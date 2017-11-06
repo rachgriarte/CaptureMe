@@ -1,0 +1,192 @@
+body{
+	font-family: 'Exo 2', sans-serif;
+	color: white;
+	background: lightblue;
+}
+/* Side 1 */
+#side1 {
+	background: linear-gradient( rgb(94, 94, 94), rgb(0, 0, 0)); /* Standard syntax */
+	height: 100vh;
+	width: 40%;
+}
+#headingg {
+	text-align: center;
+	color: rgb(20, 170, 204);
+	font-size: 100px;
+	margin-bottom: 30px;
+}
+.carousel-item {
+	height: 470px;
+	margin-left: 10px;
+}
+
+#descriptorwrap {
+	text-align:center;
+	color: black;
+}
+#descriptorwrap .glyphicon {
+	font-size:40px;
+	color: #5d5d5e;
+}
+/* Side 2 */
+#side2 {
+	background: linear-gradient(rgb(20, 170, 204), rgb(94, 94, 94)); /* Standard syntax */
+	padding: 50px;
+	height: 100vh;
+	width: 40%;
+}
+
+#nickName{
+	border: solid 5px rgb(20, 170, 204);
+}
+#nickWrap{
+	color: black;
+	background: rgb(79, 79, 79);
+	padding: 10px;
+	top:0;
+}
+
+#setNick{
+	color:black;
+}
+
+/* chat */
+#chat{
+	height: 510px;
+	width:100%;
+	overflow-y: scroll;
+}
+#contentWrap{
+	display:none;
+	/* padding: 20px; */
+}
+#chatWrap{
+	float:left;
+	border:1px #000 solid;
+	/* margin-left: 5px; */
+}
+.userwrap{
+	text-align: center;
+	background: linear-gradient( rgb(94, 94, 94), rgb(0, 0, 0)); /* Standard syntax */
+	color:white;
+	padding: 20px;
+	height: 100vh;
+}
+.error{
+	color:red;
+}
+.whisper{
+	color:gray;
+	font-style:italic;
+}
+.redText{
+	color:red;
+	text-align:center;
+}
+
+.submitbtn {
+	text-shadow:
+    -1px -1px 0 rgb(20, 170, 204),
+    1px -1px 0 rgb(20, 170, 204),
+    -1px 1px 0 rgb(20, 170, 204),
+    1px 1px 0 rgb(20, 170, 204);
+}
+.btn-warning{
+	background:rgb(0, 145, 255);
+	color: black;
+	border: none;
+}
+.btn-warning:hover{
+	background: grey;
+}
+.btn{
+	font-family: 'Luckiest Guy', cursive;
+}
+
+#top-bar{
+	background-color:rgb(20, 170, 204);
+	 border-bottom: solid 5px #dadada; 
+}
+
+#contentWrap{
+	display:none;
+}
+
+.error{
+	color:red;
+}
+
+.whisper{
+	background-color: lightgreen;
+	color:white;
+	font-style:italic;
+}
+
+#chatWrap{
+	background: linear-gradient( rgb(94, 94, 94), lightblue); /* Standard syntax */
+	border:5px rgb(170, 170, 170) solid;
+}
+
+#users{
+	font-size: 15px;
+	border: solid 3px rgb(220, 220, 220);
+}
+
+.userwrap{
+	text-align: center;
+	background-color: rgb(20, 170, 204);
+	color:white;
+  }
+
+#message{
+	color: black;
+}
+
+#send-message{
+	border: solid 5px rgb(20, 170, 204);
+}
+
+.msg {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 4px;
+	margin: 3px;
+	border-radius: 5%;
+}
+
+/*Icons*/
+.glyphicon.glyphicon-globe {
+	-webkit-animation-duration: 4s;
+}
+
+.glyphicon.glyphicon-folder-open {
+	-webkit-animation-duration: 5s;
+}
+
+.glyphicon.glyphicon-cog {
+	-webkit-animation-duration: 6s;
+
+}
+
+/*Mobile*/
+
+@media only screen and (max-width: 480px) {
+    body {
+        /*background-color: lightblue;*/
+    }
+	#logo{
+		margin-left: 85px;
+	}
+	.icons{
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+	#privacy-col{
+		margin-top: 5px;
+	}
+	iframe{
+		width: 100%;
+		height: 200px;
+	}
+}
+
