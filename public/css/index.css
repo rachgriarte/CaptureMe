@@ -124,12 +124,16 @@ body{
 
 #chatWrap{
 	background: linear-gradient( rgb(94, 94, 94), lightblue); /* Standard syntax */
-	border:5px rgb(170, 170, 170) solid;
+	border: 2px rgb(0, 0, 0) solid;
 }
 
 #users{
 	font-size: 15px;
-	border: solid 3px rgb(220, 220, 220);
+	border: solid 1px rgb(220, 220, 220);
+	padding: 30px 20px;
+	margin: 10px;
+	background: rgba(0, 0, 0, .4);
+	color: lightblue;
 }
 
 .userwrap{
